@@ -110,10 +110,10 @@ Operators:
 </remarks>
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_version"
+#include "..\YSI_Internal\y_version"
 
-#include "..\YSI-Core\y_debug"
-#include "..\YSI-Core\y_utils"
+#include "..\YSI_Core\y_debug"
+#include "..\YSI_Core\y_utils"
 
 #define BINTREE_NO_BRANCH -1
 #define BINTREE_NOT_FOUND -1
@@ -140,7 +140,7 @@ enum E_BINTREE_INPUT
 #define BinaryInput:%1<%2> Bintree:%1[%2][E_BINTREE_INPUT]
 
 #if defined YSI_TESTS
-	#include "..\YSI-Core\y_testing"
+	#include "..\YSI_Core\y_testing"
 	#include "y_bintree/tests"
 #endif
 
