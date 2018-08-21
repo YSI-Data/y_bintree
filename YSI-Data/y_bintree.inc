@@ -130,16 +130,16 @@ Optional plugins:
 	#tryinclude "y_bintree\y_bintree_entry"
 #endif
 #if !defined _INC_y_bintree
-	#tryinclude "YSI_Data\y_bintree\y_bintree_entry"
+	#tryinclude "YSI-Data\y_bintree\y_bintree_entry"
 #endif
 #if !defined _INC_y_bintree
-	#tryinclude "YSI\YSI_Data\y_bintree\y_bintree_entry"
+	#tryinclude "YSI\YSI-Data\y_bintree\y_bintree_entry"
 #endif
 #if !defined _INC_y_bintree
-	#tryinclude <YSI_Data\y_bintree\y_bintree_entry>
+	#tryinclude <YSI-Data\y_bintree\y_bintree_entry>
 #endif
 #if !defined _INC_y_bintree
-	#tryinclude <YSI\YSI_Data\y_bintree\y_bintree_entry>
+	#tryinclude <YSI\YSI-Data\y_bintree\y_bintree_entry>
 #endif
 #if !defined _INC_y_bintree
 	#error Could not find y_bintree
